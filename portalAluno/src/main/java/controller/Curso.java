@@ -1,6 +1,8 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+ *Classe : Curso 
+ *Analista Responsável:  Eduardo
+ *Desenvolvedor: Renan
+*/
 
 package com.mycompany.curso2;
 
