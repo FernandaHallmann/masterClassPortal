@@ -4,7 +4,7 @@
  *Desenvolvedor: Renan
 */
 
-package com.mycompany.curso2;
+package controller;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
