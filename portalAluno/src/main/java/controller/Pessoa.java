@@ -1,8 +1,3 @@
-/*
- *Classe : Pessoa
- *Analista Responsável:  Pedro
- *Desenvolvedor: João Contini
-*/
 package controller;
 
 import java.util.*;
@@ -21,16 +16,46 @@ public class Pessoa {
     private String genero;
     private String endereco;
 
-    public void adicinarPessoa() {
-
+    public void adicinarPessoa(String NomeSobrenome, String CPF, int registroGeral, String tipoFuncao, Date dataNasc, Date dataRegistro, String email, String telefone, boolean pcd, String genero, String endereco) {
+        this.NomeSobrenome = NomeSobrenome;
+        this.CPF = CPF;
+        this.registroGeral = registroGeral;
+        this.tipoFuncao = tipoFuncao;
+        this.dataNasc = dataNasc;
+        this.dataRegistro = dataRegistro;
+        this.email = email;
+        this.telefone = telefone;
+        this.pcd = pcd;
+        this.genero = genero;
+        this.endereco = endereco;
     }
 
-    public void editarPessoa() {
-
+    public void editarPessoa(String NomeSobrenome, String CPF, int registroGeral, String tipoFuncao, Date dataNasc, Date dataRegistro, String email, String telefone, boolean pcd, String genero, String endereco) {
+        this.NomeSobrenome = NomeSobrenome;
+        this.CPF = CPF;
+        this.registroGeral = registroGeral;
+        this.tipoFuncao = tipoFuncao;
+        this.dataNasc = dataNasc;
+        this.dataRegistro = dataRegistro;
+        this.email = email;
+        this.telefone = telefone;
+        this.pcd = pcd;
+        this.genero = genero;
+        this.endereco = endereco;
     }
 
-    public void excluirPessoa() {
-
+    public void excluirPessoa(String NomeSobrenome, String CPF, int registroGeral, String tipoFuncao, Date dataNasc, Date dataRegistro, String email, String telefone, boolean pcd, String genero, String endereco) {
+        this.NomeSobrenome = null;
+        this.CPF = null;
+        this.registroGeral = (Integer) null;
+        this.tipoFuncao = null;
+        this.dataNasc = null;
+        this.dataRegistro = null;
+        this.email = null;
+        this.telefone = null;
+        this.pcd = (Boolean) null;
+        this.genero = null;
+        this.endereco = null;
     }
 
     public String getTelefone() {
