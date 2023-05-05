@@ -1,6 +1,7 @@
 /*Classe : Instituição
 Analista Responsável:  Bruno
-Desenvolvedor: João Contini
+Desenvolvedor que criou: João Contini
+Desenvolvedor que assumiu: Fernanda
 */
 
 package controller;
